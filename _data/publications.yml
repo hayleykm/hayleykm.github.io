@@ -3,41 +3,108 @@
 # Optional fields for each publication: pdf, doi, code, note.
 
 publications:
-  - year: 2026
-    entries:
-      - title: "Family Communication and Adolescent Drug Risk Perception"
-        authors: "Riley Morgan, Alex Kim, Noor Patel"
-        venue: "Journal of Youth Health"
-        note: "Advance online publication"
-        pdf: ""
-        doi: "https://doi.org/10.0000/example-doi-2026"
-        code: ""
-
-      - title: "Neighborhood Nightlife Density and Recreational Drug Harms"
-        authors: "Riley Morgan, Sofia Vega"
-        venue: "Public Health Reports"
-        note: "Open access"
-        pdf: ""
-        doi: ""
-        code: "https://github.com/example/research-code"
-
   - year: 2025
     entries:
-      - title: "What Parents Ask Most About Cannabis and Teen Safety"
-        authors: "Riley Morgan"
-        venue: "Substance Use and Society"
-        note: "Invited review"
+      - title: "Young people, recreational drug use, and safer practices in a changing world: Futuring Harm Reduction"
+        authors: "Hayley Katherine Murray"
+        venue: "Wageningen University (PhD Dissertation)"
+        note: "Dissertation"
         pdf: ""
-        doi: "https://doi.org/10.0000/example-doi-2025"
+        doi: "https://doi.org/10.18174/682927"
         code: ""
 
-blogs:
-  - title: "How to Talk About Drugs Without Panic"
-    outlet: "Public Health Matters"
-    date: "2025-11-04"
-    url: "https://example.com/blog/talk-about-drugs"
+  - year: 2024
+    entries:
+      - title: "Controlled to Uncontrolled Drug Use: The Impact of COVID-19 Among Young People in the UK"
+        authors: "Hayley Katherine Murray"
+        venue: "Human Organization"
+        note: "Volume 83(3), pp. 266-276"
+        pdf: "https://www.wur.nl/en/publication-details.htm?publicationId=9868caef-d833-4a8f-b960-c470ac6f77a8"
+        doi: ""
+        code: ""
 
-  - title: "What New Harm-Reduction Data Means for Families"
-    outlet: "Evidence Brief"
-    date: "2025-06-19"
-    url: "https://example.com/blog/harm-reduction-data"
+  - year: 2023
+    entries:
+      - title: "Young adults' pathways of navigating harms and pleasure related to recreational poly-drug use: A complex balancing act"
+        authors: "Hayley Katherine Murray"
+        venue: "Journal of Addiction Research"
+        note: "Volume 7(1), pp. 1-16"
+        pdf: "https://www.wur.nl/en/publication-details.htm?publicationId=83e2f66b-108f-4570-8e14-a0f2a9ec95de"
+        doi: "https://doi.org/10.33140/jar.07.01.03"
+        code: ""
+
+      - title: "The impact of Covid-19 on Amsterdam's harm reduction model: an exploratory study"
+        authors: "Hayley Katherine Murray"
+        venue: "Practicing Anthropology"
+        note: "Volume 45(1), pp. 28-34"
+        pdf: ""
+        doi: "https://doi.org/10.17730/0888-4552.45.1.28"
+        code: ""
+
+  - year: 2022
+    entries:
+      - title: "Substance use policy and practice in the COVID-19 pandemic: Learning from early-pandemic responses through internationally comparative field data"
+        authors: "Olga P. Persson, et al. (including Hayley Katherine Murray)"
+        venue: "Global Public Health"
+        note: "Volume 17(12), pp. 3331-3349"
+        pdf: ""
+        doi: "https://doi.org/10.1080/17441692.2022.2129720"
+        code: ""
+
+      - title: "Is Smartphone addiction a 'real' addiction?"
+        authors: "Co-author (including Hayley Katherine Murray)"
+        venue: "Psychology of Addictive Behaviors"
+        note: "Under review (no DOI available)"
+        pdf: ""
+        doi: ""
+        code: ""
+
+  - year: 2021
+    entries:
+      - title: "Are psychotic-like experiences related to a discontinuation of cannabis consumptions in young adults?"
+        authors: "Laure Renaud, et al. (including Hayley Katherine Murray)"
+        venue: "Schizophrenia Research"
+        note: "Volume 228, pp. 461-466"
+        pdf: ""
+        doi: "https://doi.org/10.1016/j.schres.2021.01.002"
+        code: ""
+
+      - title: "Harm Reduction for Young People Who Use Drugs"
+        authors: "Contributor"
+        venue: "Youth RISE"
+        note: "Resource contribution"
+        pdf: "https://www.youthrise.org/publications"
+        doi: ""
+        code: ""
+
+  - year: 2020
+    entries:
+      - title: "Caring for 'Hassle-Free Highs' in Amsterdam"
+        authors: "A. van Schipstal, D. Niekamp, H. Murray, et al."
+        venue: "Anthropology and Humanism"
+        note: "Volume 45(2), pp. 266-286"
+        pdf: ""
+        doi: "https://doi.org/10.1111/anhu.12298"
+        code: ""
+
+  - year: 2018
+    entries:
+      - title: "Speed Limits: Harm reduction for people who use stimulants"
+        authors: "Contributor"
+        venue: "Mainline"
+        note: "Report"
+        pdf: "https://www.gpdpd.org/fileadmin/media/mainline_report_complete.pdf"
+        doi: ""
+        code: ""
+
+  - year: 2016
+    entries:
+      - title: "Harm reduction from below: On sharing and caring in drug-use"
+        authors: "S. van Schipstal, M. Mishra, H. Murray, et al."
+        venue: "Contemporary Drug Problems"
+        note: "Volume 43(3), pp. 199-215"
+        pdf: ""
+        doi: "https://doi.org/10.1177/0091450916663246"
+        code: ""
+
+blogs: []
