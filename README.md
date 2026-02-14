@@ -5,19 +5,19 @@ Designed so non-technical edits happen mostly in Markdown and YAML data files.
 
 ## Edit These Files (Most Important)
 
-- `/Users/hayleymurraynew/Documents/Website/_data/profile.yml`
+- `_data/profile.yml`
   - Name, title, email, LinkedIn, short bio, long bio, profile photo path.
-- `/Users/hayleymurraynew/Documents/Website/_data/publications.yml`
+- `_data/publications.yml`
   - Publications grouped by year, plus blog links.
-- `/Users/hayleymurraynew/Documents/Website/_data/conferences.yml`
+- `_data/conferences.yml`
   - Conference photo list for the About page.
-- `/Users/hayleymurraynew/Documents/Website/faq.md`
+- `faq.md`
   - Parent FAQ text.
-- `/Users/hayleymurraynew/Documents/Website/assets/cv/cv.pdf`
+- `assets/cv/cv.pdf`
   - Replace with your real CV PDF.
-- `/Users/hayleymurraynew/Documents/Website/assets/img/profile-placeholder.svg`
+- `assets/img/profile-placeholder.svg`
   - Replace with your real profile image (or update path in `profile.yml`).
-- `/Users/hayleymurraynew/Documents/Website/assets/img/conferences/`
+- `assets/img/conferences/`
   - Upload conference photos here.
 
 ## 1) Create the GitHub Repository
@@ -46,7 +46,7 @@ GitHub Pages usually publishes within a minute or two.
 
 ## 3) Configure `url` and `baseurl` in `_config.yml`
 
-Edit `/Users/hayleymurraynew/Documents/Website/_config.yml`:
+Edit `_config.yml`:
 
 - `url`: set to your domain root, for example `https://yourusername.github.io`
 - `baseurl`:
@@ -59,30 +59,30 @@ The templates already use `relative_url`, so links and CSS work for both cases.
 
 ### Home page
 
-- File: `/Users/hayleymurraynew/Documents/Website/index.md`
-- Most displayed text is pulled from `/Users/hayleymurraynew/Documents/Website/_data/profile.yml`
+- File: `index.md`
+- Most displayed text is pulled from `_data/profile.yml`
 
 ### About page
 
-- File: `/Users/hayleymurraynew/Documents/Website/about.md`
-- Long bio and CV link come from `/Users/hayleymurraynew/Documents/Website/_data/profile.yml`
-- Conference gallery comes from `/Users/hayleymurraynew/Documents/Website/_data/conferences.yml`
+- File: `about.md`
+- Long bio and CV link come from `_data/profile.yml`
+- Conference gallery comes from `_data/conferences.yml`
 
 ### Published works + blogs
 
-- File: `/Users/hayleymurraynew/Documents/Website/works.md`
-- Data source: `/Users/hayleymurraynew/Documents/Website/_data/publications.yml`
+- File: `works.md`
+- Data source: `_data/publications.yml`
 
 ### Parent FAQ
 
-- File: `/Users/hayleymurraynew/Documents/Website/faq.md`
+- File: `faq.md`
 
 ## 5) Change Photos
 
 ### Profile photo
 
-1. Upload your photo into `/Users/hayleymurraynew/Documents/Website/assets/img/`.
-2. Update `profile_photo` in `/Users/hayleymurraynew/Documents/Website/_data/profile.yml`.
+1. Upload your photo into `assets/img/`.
+2. Update `profile_photo` in `_data/profile.yml`.
 
 Example:
 
@@ -93,8 +93,8 @@ profile_photo_alt: "Portrait of Dr. Riley Morgan"
 
 ### Conference photos
 
-1. Upload files into `/Users/hayleymurraynew/Documents/Website/assets/img/conferences/`.
-2. Add/update items in `/Users/hayleymurraynew/Documents/Website/_data/conferences.yml`.
+1. Upload files into `assets/img/conferences/`.
+2. Add/update items in `_data/conferences.yml`.
 
 Example item:
 

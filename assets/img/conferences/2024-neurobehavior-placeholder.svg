@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Conference placeholder image">
+  <rect width="1200" height="900" fill="#edf4f1"/>
+  <rect x="120" y="140" width="960" height="620" rx="24" fill="#d1e3dc"/>
+  <text x="600" y="410" font-family="Avenir, Helvetica, sans-serif" font-size="52" text-anchor="middle" fill="#2d4c45">Conference Photo Placeholder</text>
+  <text x="600" y="490" font-family="Avenir, Helvetica, sans-serif" font-size="34" text-anchor="middle" fill="#2d4c45">Neurobehavior and Society (2024)</text>
+</svg>

@@ -1,0 +1,7 @@
+{% assign p = site.data.profile %}
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>{{ p.name | default: site.title }} | {{ p.institution | default: 'Research Institution' }}</p>
+    <p>&copy; {{ 'now' | date: '%Y' }}</p>
+  </div>
+</footer>

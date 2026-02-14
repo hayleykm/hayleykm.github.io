@@ -1,0 +1,67 @@
+---
+layout: default
+---
+{% assign pub = site.data.publications %}
+
+<h1>Published Works</h1>
+
+{% if pub.publications and pub.publications.size > 0 %}
+  {% for year_block in pub.publications %}
+    <section>
+      <h2>{{ year_block.year | default: 'Year' }}</h2>
+
+      {% if year_block.entries and year_block.entries.size > 0 %}
+        <ul class="pub-list">
+          {% for item in year_block.entries %}
+            {% assign pdf_link = item.pdf | default: '' %}
+            {% assign doi_link = item.doi | default: '' %}
+            {% assign code_link = item.code | default: '' %}
+
+            <li class="pub-item">
+              <p><strong>{{ item.title | default: 'Untitled work' }}</strong></p>
+              <p>
+                {{ item.authors | default: 'Add authors in _data/publications.yml' }}<br>
+                <em>{{ item.venue | default: 'Add venue/journal in _data/publications.yml' }}</em>{% if item.note %}, {{ item.note }}{% endif %}
+              </p>
+
+              {% if pdf_link != '' or doi_link != '' or code_link != '' %}
+                <p class="pub-links">
+                  {% if pdf_link != '' %}<a href="{{ pdf_link }}">PDF</a>{% endif %}
+                  {% if doi_link != '' %}{% if pdf_link != '' %} | {% endif %}<a href="{{ doi_link }}">DOI</a>{% endif %}
+                  {% if code_link != '' %}{% if pdf_link != '' or doi_link != '' %} | {% endif %}<a href="{{ code_link }}">Code</a>{% endif %}
+                </p>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>Add entries for {{ year_block.year }} in <code>_data/publications.yml</code>.</p>
+      {% endif %}
+    </section>
+  {% endfor %}
+{% else %}
+  <p>Add your publication list in <code>_data/publications.yml</code> under <code>publications:</code>.</p>
+{% endif %}
+
+<h1>Blogs Published Elsewhere</h1>
+
+{% if pub.blogs and pub.blogs.size > 0 %}
+  <ul class="pub-list">
+    {% for post in pub.blogs %}
+      <li class="pub-item">
+        <p><a href="{{ post.url }}">{{ post.title | default: 'Untitled blog post' }}</a></p>
+        <p>
+          {% if post.outlet %}{{ post.outlet }}{% endif %}{% if post.date %}{% if post.outlet %} | {% endif %}{{ post.date }}{% endif %}
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>Add external blog links in <code>_data/publications.yml</code> under <code>blogs:</code>.</p>
+{% endif %}
+
+{% if content and content != '' %}
+  <section class="page-note">
+    {{ content }}
+  </section>
+{% endif %}

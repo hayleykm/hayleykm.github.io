@@ -1,0 +1,43 @@
+# Publications and blog links used by works.md.
+# Keep newest year first.
+# Optional fields for each publication: pdf, doi, code, note.
+
+publications:
+  - year: 2026
+    entries:
+      - title: "Family Communication and Adolescent Drug Risk Perception"
+        authors: "Riley Morgan, Alex Kim, Noor Patel"
+        venue: "Journal of Youth Health"
+        note: "Advance online publication"
+        pdf: ""
+        doi: "https://doi.org/10.0000/example-doi-2026"
+        code: ""
+
+      - title: "Neighborhood Nightlife Density and Recreational Drug Harms"
+        authors: "Riley Morgan, Sofia Vega"
+        venue: "Public Health Reports"
+        note: "Open access"
+        pdf: ""
+        doi: ""
+        code: "https://github.com/example/research-code"
+
+  - year: 2025
+    entries:
+      - title: "What Parents Ask Most About Cannabis and Teen Safety"
+        authors: "Riley Morgan"
+        venue: "Substance Use and Society"
+        note: "Invited review"
+        pdf: ""
+        doi: "https://doi.org/10.0000/example-doi-2025"
+        code: ""
+
+blogs:
+  - title: "How to Talk About Drugs Without Panic"
+    outlet: "Public Health Matters"
+    date: "2025-11-04"
+    url: "https://example.com/blog/talk-about-drugs"
+
+  - title: "What New Harm-Reduction Data Means for Families"
+    outlet: "Evidence Brief"
+    date: "2025-06-19"
+    url: "https://example.com/blog/harm-reduction-data"

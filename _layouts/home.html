@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% assign p = site.data.profile %}
+
+<section class="home-grid">
+  <img
+    class="profile-photo"
+    src="{{ p.profile_photo | default: '/assets/img/profile-placeholder.svg' | relative_url }}"
+    alt="{{ p.profile_photo_alt | default: 'Profile photo' }}"
+  >
+
+  <div>
+    <h1>{{ p.name | default: 'Your Name' }}</h1>
+    <p class="lead">{{ p.title | default: 'Researcher' }}</p>
+    <p>{{ p.short_about | default: 'Add a short introduction in _data/profile.yml under short_about.' }}</p>
+
+    <ul class="contact-links" aria-label="Contact links">
+      {% if p.email %}
+        <li><a href="mailto:{{ p.email }}">Email</a></li>
+      {% else %}
+        <li>Email: add in <code>_data/profile.yml</code></li>
+      {% endif %}
+
+      {% if p.linkedin %}
+        <li><a href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+      {% else %}
+        <li>LinkedIn: add in <code>_data/profile.yml</code></li>
+      {% endif %}
+    </ul>
+
+    <p class="quick-links">
+      <a href="{{ '/works/' | relative_url }}">View Publications and Blogs</a>
+      <span aria-hidden="true">|</span>
+      <a href="{{ '/faq/' | relative_url }}">Questions for Parents</a>
+    </p>
+
+    {% if content and content != '' %}
+      <div class="page-note">
+        {{ content }}
+      </div>
+    {% endif %}
+  </div>
+</section>

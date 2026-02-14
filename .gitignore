@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Bundler / Ruby local installs
+.bundle/
+vendor/bundle/
+.gems/
+.home/

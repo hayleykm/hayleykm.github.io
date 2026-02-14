@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign p = site.data.profile %}
+
+<h1>{{ page.heading | default: 'Questions for Parents' }}</h1>
+<p><em>Answers by {{ p.name | default: 'the author' }}.</em></p>
+<blockquote>
+  <p>This page is educational and not a substitute for medical or legal advice.</p>
+</blockquote>
+
+{{ content }}

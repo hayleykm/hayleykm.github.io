@@ -1,0 +1,28 @@
+# Personal details shown across the site.
+# Keep text in quotes if it includes special characters.
+
+name: "Dr. Riley Morgan"
+title: "Public Health Researcher (Recreational Drugs)"
+institution: "Example University"
+email: "riley.morgan@example.edu"
+linkedin: "https://www.linkedin.com/in/riley-morgan"
+
+# Home page: short intro paragraph.
+short_about: "I research patterns of recreational drug use, harm reduction, and how families and communities can communicate about risk in practical, evidence-informed ways."
+
+# About page: longer biography.
+long_bio: |
+  I am a public health researcher focused on recreational drugs, prevention, and harm reduction.
+  My work combines epidemiology, qualitative interviews, and policy analysis to understand what
+  actually helps people make safer decisions.
+
+  I collaborate with clinicians, schools, and community organizations to translate research into
+  language that families can use. This site shares publications, writing, and parent-focused
+  answers to common questions.
+
+# Set this to your own photo path in assets/img/.
+profile_photo: "/assets/img/profile-placeholder.svg"
+profile_photo_alt: "Portrait of Dr. Riley Morgan"
+
+# About page CV link.
+cv_file: "/assets/cv/cv.pdf"

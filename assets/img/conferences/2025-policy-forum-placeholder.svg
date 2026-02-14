@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Conference placeholder image">
+  <rect width="1200" height="900" fill="#e8f1ed"/>
+  <rect x="120" y="140" width="960" height="620" rx="24" fill="#c8ddd5"/>
+  <text x="600" y="410" font-family="Avenir, Helvetica, sans-serif" font-size="52" text-anchor="middle" fill="#2c4a43">Conference Photo Placeholder</text>
+  <text x="600" y="490" font-family="Avenir, Helvetica, sans-serif" font-size="34" text-anchor="middle" fill="#2c4a43">Policy and Prevention Forum (2025)</text>
+</svg>

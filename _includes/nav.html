@@ -1,0 +1,8 @@
+<nav class="site-nav" aria-label="Main navigation">
+  <ul>
+    <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+    <li><a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a></li>
+    <li><a href="{{ '/works/' | relative_url }}" {% if page.url == '/works/' %}class="active"{% endif %}>Published Works + Blogs</a></li>
+    <li><a href="{{ '/faq/' | relative_url }}" {% if page.url == '/faq/' %}class="active"{% endif %}>Questions for Parents</a></li>
+  </ul>
+</nav>

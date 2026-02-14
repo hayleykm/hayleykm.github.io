@@ -1,0 +1,17 @@
+# Conference photo gallery for about.md.
+# 1) Put image files in assets/img/conferences/
+# 2) Add one item below per image
+# 3) Use a leading slash in image paths
+
+photos:
+  - image: "/assets/img/conferences/2025-policy-forum-placeholder.svg"
+    alt: "Dr. Riley Morgan speaking on a panel"
+    event: "Policy and Prevention Forum"
+    year: 2025
+    caption: "Panel discussion on family-centered prevention messaging."
+
+  - image: "/assets/img/conferences/2024-neurobehavior-placeholder.svg"
+    alt: "Poster presentation at a conference"
+    event: "Neurobehavior and Society Conference"
+    year: 2024
+    caption: "Poster session on youth risk communication outcomes."
