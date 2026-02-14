@@ -1,0 +1,128 @@
+# Academic Personal Website (GitHub Pages + Jekyll)
+
+A simple, maintainable personal site for recreational drugs research.
+Designed so non-technical edits happen mostly in Markdown and YAML data files.
+
+## Edit These Files (Most Important)
+
+- `/Users/hayleymurraynew/Documents/Website/_data/profile.yml`
+  - Name, title, email, LinkedIn, short bio, long bio, profile photo path.
+- `/Users/hayleymurraynew/Documents/Website/_data/publications.yml`
+  - Publications grouped by year, plus blog links.
+- `/Users/hayleymurraynew/Documents/Website/_data/conferences.yml`
+  - Conference photo list for the About page.
+- `/Users/hayleymurraynew/Documents/Website/faq.md`
+  - Parent FAQ text.
+- `/Users/hayleymurraynew/Documents/Website/assets/cv/cv.pdf`
+  - Replace with your real CV PDF.
+- `/Users/hayleymurraynew/Documents/Website/assets/img/profile-placeholder.svg`
+  - Replace with your real profile image (or update path in `profile.yml`).
+- `/Users/hayleymurraynew/Documents/Website/assets/img/conferences/`
+  - Upload conference photos here.
+
+## 1) Create the GitHub Repository
+
+1. Create a new GitHub repository.
+2. Copy these files into the repository root.
+3. Commit and push.
+
+If this is your personal site repo, name it exactly:
+
+- `yourusername.github.io`
+
+If this is a project site repo, any repo name is fine (for example `research-site`).
+
+## 2) Enable GitHub Pages
+
+1. Open your repository on GitHub.
+2. Go to **Settings** -> **Pages**.
+3. Under **Build and deployment**:
+   - Source: **Deploy from a branch**
+   - Branch: **main**
+   - Folder: **/ (root)**
+4. Save.
+
+GitHub Pages usually publishes within a minute or two.
+
+## 3) Configure `url` and `baseurl` in `_config.yml`
+
+Edit `/Users/hayleymurraynew/Documents/Website/_config.yml`:
+
+- `url`: set to your domain root, for example `https://yourusername.github.io`
+- `baseurl`:
+  - User site (`yourusername.github.io`): `""`
+  - Project site (`yourusername.github.io/repo-name`): `"/repo-name"`
+
+The templates already use `relative_url`, so links and CSS work for both cases.
+
+## 4) Edit Site Content
+
+### Home page
+
+- File: `/Users/hayleymurraynew/Documents/Website/index.md`
+- Most displayed text is pulled from `/Users/hayleymurraynew/Documents/Website/_data/profile.yml`
+
+### About page
+
+- File: `/Users/hayleymurraynew/Documents/Website/about.md`
+- Long bio and CV link come from `/Users/hayleymurraynew/Documents/Website/_data/profile.yml`
+- Conference gallery comes from `/Users/hayleymurraynew/Documents/Website/_data/conferences.yml`
+
+### Published works + blogs
+
+- File: `/Users/hayleymurraynew/Documents/Website/works.md`
+- Data source: `/Users/hayleymurraynew/Documents/Website/_data/publications.yml`
+
+### Parent FAQ
+
+- File: `/Users/hayleymurraynew/Documents/Website/faq.md`
+
+## 5) Change Photos
+
+### Profile photo
+
+1. Upload your photo into `/Users/hayleymurraynew/Documents/Website/assets/img/`.
+2. Update `profile_photo` in `/Users/hayleymurraynew/Documents/Website/_data/profile.yml`.
+
+Example:
+
+```yml
+profile_photo: "/assets/img/my-photo.jpg"
+profile_photo_alt: "Portrait of Dr. Riley Morgan"
+```
+
+### Conference photos
+
+1. Upload files into `/Users/hayleymurraynew/Documents/Website/assets/img/conferences/`.
+2. Add/update items in `/Users/hayleymurraynew/Documents/Website/_data/conferences.yml`.
+
+Example item:
+
+```yml
+- image: "/assets/img/conferences/2026-meeting.jpg"
+  alt: "Speaking at a conference panel"
+  event: "Global Drug Policy Meeting"
+  year: 2026
+  caption: "Panel on prevention messaging and youth outcomes."
+```
+
+## Optional: Local Preview (Beginner-Friendly)
+
+If you want to preview before pushing:
+
+1. Install Ruby and Jekyll.
+2. In this folder, run:
+
+```bash
+jekyll serve
+```
+
+3. Open the local URL printed in the terminal (usually `http://127.0.0.1:4000`).
+
+If local setup feels too technical, skip this and rely on GitHub Pages preview after push.
+
+## Notes
+
+- No custom plugins are required.
+- Navigation is shared across pages via includes.
+- Main content is intentionally centralized in Markdown and `_data/*.yml` files.
