@@ -21,8 +21,8 @@ long_bio: |
   answers to common questions.
 
 # Set this to your own photo path in assets/img/.
-profile_photo: "/assets/img/profile-placeholder.svg"
-profile_photo_alt: "Portrait of Dr. Riley Morgan"
+profile_photo: "/assets/img/profile.jpg"
+profile_photo_alt: "Portrait of Dr. Hayley Murray"
 
 # About page CV link.
 cv_file: "/assets/cv/cv.pdf"
