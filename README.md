@@ -9,16 +9,12 @@ Designed so non-technical edits happen mostly in Markdown and YAML data files.
   - Name, title, email, LinkedIn, short bio, long bio, profile photo path.
 - `_data/publications.yml`
   - Publications grouped by year, plus blog links.
-- `_data/conferences.yml`
-  - Conference photo list for the About page.
 - `faq.md`
   - Parent FAQ text.
 - `assets/cv/cv.pdf`
-  - Replace with your real CV PDF.
-- `assets/img/profile-placeholder.svg`
-  - Replace with your real profile image (or update path in `profile.yml`).
-- `assets/img/conferences/`
-  - Upload conference photos here.
+  - Your current CV PDF used on the About page.
+- `assets/img/`
+  - Profile and other page images.
 
 ## 1) Create the GitHub Repository
 
@@ -66,9 +62,8 @@ The templates already use `relative_url`, so links and CSS work for both cases.
 
 - File: `about.md`
 - Long bio and CV link come from `_data/profile.yml`
-- Conference gallery comes from `_data/conferences.yml`
 
-### Published works + blogs
+### Publications and Blog
 
 - File: `works.md`
 - Data source: `_data/publications.yml`
@@ -88,22 +83,7 @@ Example:
 
 ```yml
 profile_photo: "/assets/img/my-photo.jpg"
-profile_photo_alt: "Portrait of Dr. Riley Morgan"
-```
-
-### Conference photos
-
-1. Upload files into `assets/img/conferences/`.
-2. Add/update items in `_data/conferences.yml`.
-
-Example item:
-
-```yml
-- image: "/assets/img/conferences/2026-meeting.jpg"
-  alt: "Speaking at a conference panel"
-  event: "Global Drug Policy Meeting"
-  year: 2026
-  caption: "Panel on prevention messaging and youth outcomes."
+profile_photo_alt: "Portrait of Hayley K Murray"
 ```
 
 ## Optional: Local Preview (Beginner-Friendly)
@@ -114,7 +94,7 @@ If you want to preview before pushing:
 2. In this folder, run:
 
 ```bash
-jekyll serve
+bundle exec jekyll serve
 ```
 
 3. Open the local URL printed in the terminal (usually `http://127.0.0.1:4000`).

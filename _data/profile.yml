@@ -2,13 +2,13 @@
 # Keep text in quotes if it includes special characters.
 
 name: "Dr. Hayley Murray"
-title: "Public Health Researcher (Recreational Drugs)"
+title: "Drug Use Researcher"
 institution: "Wageningen University"
 email: "hayley.murray@wur.nl"
 linkedin: "https://www.linkedin.com/in/hayley-murray-649031b0/"
 
 # Home page: short intro paragraph.
-short_about: "I research patterns of recreational drug use, harm reduction, and how families and communities can communicate about risk in practical, evidence-informed ways."
+short_about: "I research patterns of recreational drug use, practices of harm reduction, and how families and communities can communicate about risk in practical, evidence-informed ways."
 short_about_extra: "I am always up for conversations about drugs — from research and policy to real-world experiences and ideas. If you’re interested in discussing, debating, or just exploring the topic, feel free to get in touch."
 
 # About page: longer biography.

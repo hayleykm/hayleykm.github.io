@@ -2,25 +2,20 @@
 layout: default
 ---
 {% assign p = site.data.profile %}
-{% assign conference_photos = site.data.conferences.photos %}
 
 <h1>About</h1>
 
 {% if p.about_photo %}
   <figure class="about-photo-card">
-    <img src="{{ p.about_photo | relative_url }}" alt="{{ p.about_photo_alt | default: 'Photo of Hayley K Murray' }}">
+    <img src="{{ p.about_photo | relative_url }}" alt="{{ p.about_photo_alt | default: 'Photo of Hayley K Murray' }}" loading="lazy">
   </figure>
 {% endif %}
 
-{{ p.long_bio | default: "Add your full bio in _data/profile.yml under long_bio." | markdownify }}
-
-<h2>CV</h2>
+{{ p.long_bio | default: "" | markdownify }}
 
 <p>
   <a class="button-link" href="{{ p.cv_file | default: '/assets/cv/cv.pdf' | relative_url }}">Download CV (PDF)</a>
 </p>
-
-<p>Replace <code>assets/cv/cv.pdf</code> with your real CV file when ready.</p>
 
 {% if content and content != '' %}
   <section class="page-note">

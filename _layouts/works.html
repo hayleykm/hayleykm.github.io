@@ -3,19 +3,27 @@ layout: default
 ---
 {% assign pub = site.data.publications %}
 
-<h1>Published Works</h1>
+<h1>Publications and Blog</h1>
+
+<p class="section-jump-links">
+  <a class="section-jump-btn" href="#publications-section">Go to Publications</a>
+  <a class="section-jump-btn" href="#blog-section">Go to Blog</a>
+</p>
 
 {% assign p = site.data.profile %}
 {% if p.works_photo %}
   <figure class="works-photo-card works-photo-large">
-    <img src="{{ p.works_photo | relative_url }}" alt="{{ p.works_photo_alt | default: 'Hayley K Murray' }}">
+    <img src="{{ p.works_photo | relative_url }}" alt="{{ p.works_photo_alt | default: 'Hayley K Murray' }}" loading="lazy">
   </figure>
 {% endif %}
+
+<section>
+<h2 id="publications-section" class="section-anchor-target">Publications</h2>
 
 {% if pub.publications and pub.publications.size > 0 %}
   {% for year_block in pub.publications %}
     <section>
-      <h2>{{ year_block.year | default: 'Year' }}</h2>
+      <h3>{{ year_block.year | default: 'Year' }}</h3>
 
       {% if year_block.entries and year_block.entries.size > 0 %}
         <ul class="pub-list">
@@ -27,52 +35,54 @@ layout: default
             <li class="pub-item">
               <p><strong>{{ item.title | default: 'Untitled work' }}</strong></p>
               <p>
-                {{ item.authors | default: 'Add authors in _data/publications.yml' }}<br>
-                <em>{{ item.venue | default: 'Add venue/journal in _data/publications.yml' }}</em>{% if item.note %}, {{ item.note }}{% endif %}
+                {{ item.authors | default: '' }}<br>
+                <em>{{ item.venue | default: '' }}</em>{% if item.note %}, {{ item.note }}{% endif %}
               </p>
 
               {% if pdf_link != '' or doi_link != '' or code_link != '' %}
                 <p class="pub-links">
-                  {% if pdf_link != '' %}<a href="{{ pdf_link }}">{% if pdf_link contains '.pdf' %}PDF{% else %}Link{% endif %}</a>{% endif %}
-                  {% if doi_link != '' %}{% if pdf_link != '' %} | {% endif %}<a href="{{ doi_link }}">DOI</a>{% endif %}
-                  {% if code_link != '' %}{% if pdf_link != '' or doi_link != '' %} | {% endif %}<a href="{{ code_link }}">Code</a>{% endif %}
+                  {% if pdf_link != '' %}<a href="{{ pdf_link }}" target="_blank" rel="noopener noreferrer">{% if pdf_link contains '.pdf' %}PDF{% else %}Link{% endif %}</a>{% endif %}
+                  {% if doi_link != '' %}{% if pdf_link != '' %} | {% endif %}<a href="{{ doi_link }}" target="_blank" rel="noopener noreferrer">DOI</a>{% endif %}
+                  {% if code_link != '' %}{% if pdf_link != '' or doi_link != '' %} | {% endif %}<a href="{{ code_link }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
                 </p>
               {% endif %}
             </li>
           {% endfor %}
         </ul>
-      {% else %}
-        <p>Add entries for {{ year_block.year }} in <code>_data/publications.yml</code>.</p>
       {% endif %}
     </section>
   {% endfor %}
-{% else %}
-  <p>Add your publication list in <code>_data/publications.yml</code> under <code>publications:</code>.</p>
 {% endif %}
+</section>
 
-<h2>Blog Posts</h2>
+<section>
+<h2 id="blog-section" class="section-anchor-target">Blog</h2>
 
 {% if pub.blogs and pub.blogs.size > 0 %}
-  <ul class="pub-list">
+  <ul class="blog-grid">
     {% for post in pub.blogs %}
-      <li class="pub-item">
-        <p class="blog-title-row">
-          {% if post.outlet and post.outlet contains 'Poppi' %}
-            <img class="blog-logo blog-logo-poppi" src="{{ '/assets/img/poppi-logo.png' | relative_url }}" alt="Poppi logo">
-          {% elsif post.outlet and post.outlet contains 'High Humans' %}
-            <img class="blog-logo blog-logo-wide" src="{{ '/assets/img/highhumans-logo.png' | relative_url }}" alt="High Humans logo">
-          {% endif %}
-          <a href="{{ post.url }}">{{ post.title | default: 'Untitled blog post' }}</a>
-        </p>
-        <p>
-          {% if post.outlet %}{{ post.outlet }}{% endif %}{% if post.date %}{% if post.outlet %} | {% endif %}{{ post.date }}{% endif %}
-        </p>
+      <li class="blog-card">
+        <a class="blog-card-link" href="{{ post.url }}" target="_blank" rel="noopener noreferrer">
+          <div class="blog-card-image-wrap">
+            {% assign blog_image = post.image | default: '' %}
+            <img
+              class="blog-card-image"
+              src="{% if blog_image != '' %}{{ blog_image }}{% else %}{{ '/assets/img/poppi-logo.png' | relative_url }}{% endif %}"
+              alt="{{ post.title | default: 'Blog post image' }}"
+              loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <p class="blog-card-title">{{ post.title | default: 'Untitled blog post' }}</p>
+            <p class="blog-card-meta">
+              {% if post.outlet %}@ {{ post.outlet }}{% endif %}{% if post.date %} - {{ post.date }}{% endif %}
+            </p>
+          </div>
+        </a>
       </li>
     {% endfor %}
   </ul>
-{% else %}
-  <p>Add external blog links in <code>_data/publications.yml</code> under <code>blogs:</code>.</p>
 {% endif %}
+</section>
 
 {% if content and content != '' %}
   <section class="page-note">

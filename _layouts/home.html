@@ -8,35 +8,36 @@ layout: default
     class="profile-photo"
     src="{{ p.profile_photo | default: '/assets/img/profile-placeholder.svg' | relative_url }}"
     alt="{{ p.profile_photo_alt | default: 'Profile photo' }}"
+    loading="eager"
   >
 
   <div>
     <h1>{{ p.name | default: 'Your Name' }}</h1>
     <p class="lead">{{ p.title | default: 'Researcher' }}</p>
-    <p>{{ p.short_about | default: 'Add a short introduction in _data/profile.yml under short_about.' }}</p>
+    <p>{{ p.short_about | default: '' }}</p>
     {% if p.short_about_extra %}
       <p>{{ p.short_about_extra }}</p>
     {% endif %}
 
     <ul class="contact-links" aria-label="Contact links">
       {% if p.email %}
-        <li><a href="mailto:{{ p.email }}">Email</a></li>
-      {% else %}
-        <li>Email: add in <code>_data/profile.yml</code></li>
+        <li>
+          <a class="contact-chip" href="mailto:{{ p.email }}">
+            <span class="contact-icon" aria-hidden="true">@</span>
+            <span>Email</span>
+          </a>
+        </li>
       {% endif %}
 
       {% if p.linkedin %}
-        <li><a href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
-      {% else %}
-        <li>LinkedIn: add in <code>_data/profile.yml</code></li>
+        <li>
+          <a class="contact-chip" href="{{ p.linkedin }}" target="_blank" rel="noopener">
+            <span class="contact-icon" aria-hidden="true">in</span>
+            <span>LinkedIn</span>
+          </a>
+        </li>
       {% endif %}
     </ul>
-
-    <p class="quick-links">
-      <a href="{{ '/works/' | relative_url }}">View Publications and Blogs</a>
-      <span aria-hidden="true">|</span>
-      <a href="{{ '/faq/' | relative_url }}">Questions for Parents</a>
-    </p>
 
     {% if content and content != '' %}
       <div class="page-note">
