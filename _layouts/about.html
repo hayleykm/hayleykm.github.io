@@ -6,6 +6,12 @@ layout: default
 
 <h1>About</h1>
 
+{% if p.about_photo %}
+  <figure class="about-photo-card">
+    <img src="{{ p.about_photo | relative_url }}" alt="{{ p.about_photo_alt | default: 'Photo of Hayley K Murray' }}">
+  </figure>
+{% endif %}
+
 {{ p.long_bio | default: "Add your full bio in _data/profile.yml under long_bio." | markdownify }}
 
 <h2>CV</h2>
@@ -15,25 +21,6 @@ layout: default
 </p>
 
 <p>Replace <code>assets/cv/cv.pdf</code> with your real CV file when ready.</p>
-
-<h2>Conference Photos</h2>
-
-{% if conference_photos and conference_photos.size > 0 %}
-  <div class="conference-grid">
-    {% for photo in conference_photos %}
-      <figure class="conference-card">
-        <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | default: photo.event }}">
-        <figcaption>
-          <strong>{{ photo.event | default: 'Conference' }}</strong>
-          {% if photo.year %} ({{ photo.year }}){% endif %}
-          {% if photo.caption %}<br>{{ photo.caption }}{% endif %}
-        </figcaption>
-      </figure>
-    {% endfor %}
-  </div>
-{% else %}
-  <p>Add conference photos in <code>assets/img/conferences/</code> and list them in <code>_data/conferences.yml</code>.</p>
-{% endif %}
 
 {% if content and content != '' %}
   <section class="page-note">

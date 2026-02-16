@@ -6,7 +6,7 @@ publications:
   - year: 2025
     entries:
       - title: "Young people, recreational drug use, and safer practices in a changing world: Futuring Harm Reduction"
-        authors: "Hayley Katherine Murray"
+        authors: "Hayley K Murray"
         venue: "Wageningen University (PhD Dissertation)"
         note: "Dissertation"
         pdf: ""
@@ -16,7 +16,7 @@ publications:
   - year: 2024
     entries:
       - title: "Controlled to Uncontrolled Drug Use: The Impact of COVID-19 Among Young People in the UK"
-        authors: "Hayley Katherine Murray"
+        authors: "Hayley K Murray"
         venue: "Human Organization"
         note: "Volume 83(3), pp. 266-276"
         pdf: "https://www.wur.nl/en/publication-details.htm?publicationId=9868caef-d833-4a8f-b960-c470ac6f77a8"
@@ -26,7 +26,7 @@ publications:
   - year: 2023
     entries:
       - title: "Young adults' pathways of navigating harms and pleasure related to recreational poly-drug use: A complex balancing act"
-        authors: "Hayley Katherine Murray"
+        authors: "Hayley K Murray"
         venue: "Journal of Addiction Research"
         note: "Volume 7(1), pp. 1-16"
         pdf: "https://www.wur.nl/en/publication-details.htm?publicationId=83e2f66b-108f-4570-8e14-a0f2a9ec95de"
@@ -34,7 +34,7 @@ publications:
         code: ""
 
       - title: "The impact of Covid-19 on Amsterdam's harm reduction model: an exploratory study"
-        authors: "Hayley Katherine Murray"
+        authors: "Hayley K Murray"
         venue: "Practicing Anthropology"
         note: "Volume 45(1), pp. 28-34"
         pdf: ""
@@ -44,7 +44,7 @@ publications:
   - year: 2022
     entries:
       - title: "Substance use policy and practice in the COVID-19 pandemic: Learning from early-pandemic responses through internationally comparative field data"
-        authors: "Olga P. Persson, et al. (including Hayley Katherine Murray)"
+        authors: "Olga P. Persson, et al. (including Hayley K Murray)"
         venue: "Global Public Health"
         note: "Volume 17(12), pp. 3331-3349"
         pdf: ""
@@ -52,7 +52,7 @@ publications:
         code: ""
 
       - title: "Is Smartphone addiction a 'real' addiction?"
-        authors: "Co-author (including Hayley Katherine Murray)"
+        authors: "Co-author (including Hayley K Murray)"
         venue: "Psychology of Addictive Behaviors"
         note: "Under review (no DOI available)"
         pdf: ""
@@ -62,7 +62,7 @@ publications:
   - year: 2021
     entries:
       - title: "Are psychotic-like experiences related to a discontinuation of cannabis consumptions in young adults?"
-        authors: "Laure Renaud, et al. (including Hayley Katherine Murray)"
+        authors: "Laure Renaud, et al. (including Hayley K Murray)"
         venue: "Schizophrenia Research"
         note: "Volume 228, pp. 461-466"
         pdf: ""
@@ -87,70 +87,6 @@ publications:
         doi: "https://doi.org/10.1111/anhu.12298"
         code: ""
 
-      - title: "Recreational drug use in pandemics"
-        authors: "Hayley Katherine Murray"
-        venue: "Poppi Amsterdam"
-        note: "Blog series"
-        pdf: "https://poppi.amsterdam/en/recreational-drug-use-in-pandemics/"
-        doi: ""
-        code: ""
-
-      - title: "Part two: tripping during COVID"
-        authors: "Hayley Katherine Murray"
-        venue: "Poppi Amsterdam"
-        note: "Blog series"
-        pdf: "https://poppi.amsterdam/en/part-two-tripping-during-covid/"
-        doi: ""
-        code: ""
-
-      - title: "Part three: cocaine and stimulants"
-        authors: "Hayley Katherine Murray"
-        venue: "Poppi Amsterdam"
-        note: "Blog series"
-        pdf: "https://poppi.amsterdam/en/part-three-cocaine-and-stimulants/"
-        doi: ""
-        code: ""
-
-      - title: "Part four: drug experiments during a pandemic"
-        authors: "Hayley Katherine Murray"
-        venue: "Poppi Amsterdam"
-        note: "Blog series"
-        pdf: "https://poppi.amsterdam/en/part-four-drug-experiments-during-a-pandemic/"
-        doi: ""
-        code: ""
-
-      - title: "Part five: pause"
-        authors: "Hayley Katherine Murray"
-        venue: "Poppi Amsterdam"
-        note: "Blog series"
-        pdf: "https://poppi.amsterdam/en/part-five-pause/"
-        doi: ""
-        code: ""
-
-      - title: "Part eight: checking in"
-        authors: "Hayley Katherine Murray"
-        venue: "Poppi Amsterdam"
-        note: "Blog series"
-        pdf: "https://poppi.amsterdam/en/part-eight-checking-in/"
-        doi: ""
-        code: ""
-
-      - title: "Part nine: checking in 2"
-        authors: "Hayley Katherine Murray"
-        venue: "Poppi Amsterdam"
-        note: "Blog series"
-        pdf: "https://poppi.amsterdam/en/part-nine-checking-in-2/"
-        doi: ""
-        code: ""
-
-      - title: "Part nine: checking in (Dutch version)"
-        authors: "Hayley Katherine Murray"
-        venue: "Poppi Amsterdam"
-        note: "Blog series (NL)"
-        pdf: "https://poppi.amsterdam/nl-nl/iv/part-nin-checking-in/"
-        doi: ""
-        code: ""
-
   - year: 2018
     entries:
       - title: "Speed Limits: Harm reduction for people who use stimulants"
@@ -172,6 +108,11 @@ publications:
         code: ""
 
 blogs:
+  - title: "Recreational drug use in pandemics"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/recreational-drug-use-in-pandemics/"
+
   - title: "Part two: tripping during COVID"
     outlet: "Poppi Amsterdam"
     date: ""
@@ -216,3 +157,8 @@ blogs:
     outlet: "Poppi Amsterdam"
     date: ""
     url: "https://poppi.amsterdam/en/part-nine-checking-in-2/"
+
+  - title: "Hayley K Murray #35"
+    outlet: "High Humans"
+    date: ""
+    url: "https://www.highhumans.com/hayley-murray-35/"

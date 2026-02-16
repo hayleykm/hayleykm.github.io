@@ -3,12 +3,13 @@
 
 name: "Dr. Hayley Murray"
 title: "Public Health Researcher (Recreational Drugs)"
-institution: "Example University"
-email: "riley.morgan@example.edu"
-linkedin: "https://www.linkedin.com/in/riley-morgan"
+institution: "Wageningen University"
+email: "hayley.murray@wur.nl"
+linkedin: "https://www.linkedin.com/in/hayley-murray-649031b0/"
 
 # Home page: short intro paragraph.
 short_about: "I research patterns of recreational drug use, harm reduction, and how families and communities can communicate about risk in practical, evidence-informed ways."
+short_about_extra: "I am always up for conversations about drugs — from research and policy to real-world experiences and ideas. If you’re interested in discussing, debating, or just exploring the topic, feel free to get in touch."
 
 # About page: longer biography.
 long_bio: |
@@ -23,6 +24,12 @@ long_bio: |
 # Set this to your own photo path in assets/img/.
 profile_photo: "/assets/img/profile.jpg"
 profile_photo_alt: "Portrait of Dr. Hayley Murray"
+about_photo: "/assets/img/about-photo.jpg"
+about_photo_alt: "Hayley K Murray at an event"
+works_photo: "/assets/img/published-photo.jpg"
+works_photo_alt: "Hayley K Murray at a dissertation event"
+faq_photo: "/assets/img/works-photo.png"
+faq_photo_alt: "Hayley K Murray outdoors"
 
 # About page CV link.
 cv_file: "/assets/cv/cv.pdf"

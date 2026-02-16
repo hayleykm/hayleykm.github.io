@@ -146,13 +146,13 @@ h2 {
 
 .home-grid {
   display: grid;
-  grid-template-columns: minmax(210px, 280px) 1fr;
-  gap: 2rem;
+  grid-template-columns: minmax(260px, 360px) 1fr;
+  gap: 2.4rem;
   align-items: start;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 14px;
-  padding: 1.4rem;
+  padding: 1.9rem;
 }
 
 .profile-photo {
@@ -160,6 +160,18 @@ h2 {
   border-radius: 10px;
   border: 1px solid var(--border);
   background: #f0f4f2;
+}
+
+.home-grid h1 {
+  font-size: clamp(2.1rem, 2.9vw, 2.8rem);
+}
+
+.home-grid .lead {
+  font-size: 1.16rem;
+}
+
+.home-grid p {
+  font-size: 1.08rem;
 }
 
 .contact-links {
@@ -223,6 +235,64 @@ h2 {
   white-space: nowrap;
 }
 
+.blog-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.blog-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.blog-logo-poppi {
+  filter: invert(1) grayscale(1);
+}
+
+.blog-logo-wide {
+  width: 56px;
+  height: 22px;
+}
+
+.about-photo-card {
+  margin: 0.9rem auto 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--surface);
+  max-width: 760px;
+}
+
+.about-photo-card img {
+  width: 100%;
+  display: block;
+  max-height: 440px;
+  object-fit: cover;
+}
+
+.works-photo-card {
+  margin: 0.9rem 0 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--surface);
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.works-photo-card img {
+  width: 100%;
+  display: block;
+}
+
+.works-photo-large {
+  max-width: 520px;
+}
+
 .conference-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -264,6 +334,14 @@ h2 {
 
 .footer-inner p {
   margin: 0.2rem 0;
+}
+
+.footer-sticker {
+  display: block;
+  width: 110px;
+  max-width: 28vw;
+  margin: 0.65rem auto 0.1rem;
+  opacity: 0.95;
 }
 
 @media (max-width: 780px) {

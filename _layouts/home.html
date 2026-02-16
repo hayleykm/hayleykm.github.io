@@ -14,6 +14,9 @@ layout: default
     <h1>{{ p.name | default: 'Your Name' }}</h1>
     <p class="lead">{{ p.title | default: 'Researcher' }}</p>
     <p>{{ p.short_about | default: 'Add a short introduction in _data/profile.yml under short_about.' }}</p>
+    {% if p.short_about_extra %}
+      <p>{{ p.short_about_extra }}</p>
+    {% endif %}
 
     <ul class="contact-links" aria-label="Contact links">
       {% if p.email %}

@@ -3,5 +3,10 @@
   <div class="container footer-inner">
     <p>{{ p.name | default: site.title }} | {{ p.institution | default: 'Research Institution' }}</p>
     <p>&copy; {{ 'now' | date: '%Y' }}</p>
+    <img
+      class="footer-sticker"
+      src="{{ '/assets/img/footer-sticker.jpg' | relative_url }}"
+      alt="I love people who use drugs"
+    >
   </div>
 </footer>

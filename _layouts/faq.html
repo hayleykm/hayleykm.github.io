@@ -9,4 +9,10 @@ layout: default
   <p>This page is educational and not a substitute for medical or legal advice.</p>
 </blockquote>
 
+{% if p.faq_photo %}
+  <figure class="works-photo-card">
+    <img src="{{ p.faq_photo | relative_url }}" alt="{{ p.faq_photo_alt | default: 'Hayley K Murray' }}">
+  </figure>
+{% endif %}
+
 {{ content }}
