@@ -87,6 +87,70 @@ publications:
         doi: "https://doi.org/10.1111/anhu.12298"
         code: ""
 
+      - title: "Recreational drug use in pandemics"
+        authors: "Hayley Katherine Murray"
+        venue: "Poppi Amsterdam"
+        note: "Blog series"
+        pdf: "https://poppi.amsterdam/en/recreational-drug-use-in-pandemics/"
+        doi: ""
+        code: ""
+
+      - title: "Part two: tripping during COVID"
+        authors: "Hayley Katherine Murray"
+        venue: "Poppi Amsterdam"
+        note: "Blog series"
+        pdf: "https://poppi.amsterdam/en/part-two-tripping-during-covid/"
+        doi: ""
+        code: ""
+
+      - title: "Part three: cocaine and stimulants"
+        authors: "Hayley Katherine Murray"
+        venue: "Poppi Amsterdam"
+        note: "Blog series"
+        pdf: "https://poppi.amsterdam/en/part-three-cocaine-and-stimulants/"
+        doi: ""
+        code: ""
+
+      - title: "Part four: drug experiments during a pandemic"
+        authors: "Hayley Katherine Murray"
+        venue: "Poppi Amsterdam"
+        note: "Blog series"
+        pdf: "https://poppi.amsterdam/en/part-four-drug-experiments-during-a-pandemic/"
+        doi: ""
+        code: ""
+
+      - title: "Part five: pause"
+        authors: "Hayley Katherine Murray"
+        venue: "Poppi Amsterdam"
+        note: "Blog series"
+        pdf: "https://poppi.amsterdam/en/part-five-pause/"
+        doi: ""
+        code: ""
+
+      - title: "Part eight: checking in"
+        authors: "Hayley Katherine Murray"
+        venue: "Poppi Amsterdam"
+        note: "Blog series"
+        pdf: "https://poppi.amsterdam/en/part-eight-checking-in/"
+        doi: ""
+        code: ""
+
+      - title: "Part nine: checking in 2"
+        authors: "Hayley Katherine Murray"
+        venue: "Poppi Amsterdam"
+        note: "Blog series"
+        pdf: "https://poppi.amsterdam/en/part-nine-checking-in-2/"
+        doi: ""
+        code: ""
+
+      - title: "Part nine: checking in (Dutch version)"
+        authors: "Hayley Katherine Murray"
+        venue: "Poppi Amsterdam"
+        note: "Blog series (NL)"
+        pdf: "https://poppi.amsterdam/nl-nl/iv/part-nin-checking-in/"
+        doi: ""
+        code: ""
+
   - year: 2018
     entries:
       - title: "Speed Limits: Harm reduction for people who use stimulants"
@@ -107,4 +171,48 @@ publications:
         doi: "https://doi.org/10.1177/0091450916663246"
         code: ""
 
-blogs: []
+blogs:
+  - title: "Part two: tripping during COVID"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-two-tripping-during-covid/"
+
+  - title: "Part three: corona and stimulants"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-three-corona-and-stimulants/"
+
+  - title: "Part four: drug experiments during a pandemic"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-four-drug-experiments-during-a-pandemic/"
+
+  - title: "Part five: pause"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-five-pause/"
+
+  - title: "Part six: corona and Christmas"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-six-corona-and-christmas/"
+
+  - title: "Part seven: getting tested"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-seven-getting-tested/"
+
+  - title: "Part eight: checking in"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-eight-checking-in/"
+
+  - title: "Part nine: checking in"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-nine-checking-in/"
+
+  - title: "Part nine: checking in 2"
+    outlet: "Poppi Amsterdam"
+    date: ""
+    url: "https://poppi.amsterdam/en/part-nine-checking-in-2/"

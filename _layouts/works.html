@@ -26,7 +26,7 @@ layout: default
 
               {% if pdf_link != '' or doi_link != '' or code_link != '' %}
                 <p class="pub-links">
-                  {% if pdf_link != '' %}<a href="{{ pdf_link }}">PDF</a>{% endif %}
+                  {% if pdf_link != '' %}<a href="{{ pdf_link }}">{% if pdf_link contains '.pdf' %}PDF{% else %}Link{% endif %}</a>{% endif %}
                   {% if doi_link != '' %}{% if pdf_link != '' %} | {% endif %}<a href="{{ doi_link }}">DOI</a>{% endif %}
                   {% if code_link != '' %}{% if pdf_link != '' or doi_link != '' %} | {% endif %}<a href="{{ code_link }}">Code</a>{% endif %}
                 </p>

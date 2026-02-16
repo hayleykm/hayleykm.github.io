@@ -1,7 +1,7 @@
 # Basic site settings for GitHub Pages + Jekyll.
 title: "Recreational Drugs Research"
 description: "Academic personal website on recreational drugs research"
-url: "https://yourusername.github.io"
+url: "https://hayleykmurray.com"
 # For a user site (yourusername.github.io), keep baseurl empty: ""
 # For a project site (yourusername.github.io/repo-name), set baseurl to "/repo-name"
 baseurl: ""
