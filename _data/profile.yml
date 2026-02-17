@@ -13,13 +13,14 @@ short_about_extra: "I am always up for conversations about drugs — from resear
 
 # About page: longer biography.
 long_bio: |
-  I am a public health researcher focused on recreational drugs, prevention, and harm reduction.
-  My work combines epidemiology, qualitative interviews, and policy analysis to understand what
-  actually helps people make safer decisions.
-
-  I collaborate with clinicians, schools, and community organizations to translate research into
-  language that families can use. This site shares publications, writing, and parent-focused
-  answers to common questions.
+  I am an Anthropologist specializing in youth drug use, harm reduction, and the social dynamics
+  of substance use, with a PhD in Anthropology from Wageningen University & Research and graduate
+  training in Medical Anthropology, Sociology, and Public Health. My work draws on interdisciplinary
+  training from the University of Amsterdam and the University of Waterloo, combining ethnographic
+  depth with public health perspectives to better understand how young people navigate pleasure,
+  risk, and care. Through research, publications, and international collaborations, I am committed
+  to advancing peer-informed, evidence-based harm reduction practices that center lived experience
+  and contribute to more just drug policy.
 
 # Set this to your own photo path in assets/img/.
 profile_photo: "/assets/img/profile.jpg"
