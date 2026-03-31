@@ -46,11 +46,11 @@ Technically, possession, sale, and production of all drugs are illegal. In pract
 Overall, the Dutch approach is pragmatic and harm-reduction oriented, prioritizing public health, education, and access to support.
 
 ## 6) Drug testing services? Tell me more.
-Drug testing is a potentially life-saving service carried out by non-judgmental, knowledgeable staff. The government supports drug checking because it helps identify dangerous substances and issue timely warnings (for example via alerts), flags high-risk pills, and monitors trends so people can make better-informed decisions.
+Drug testing is a (still underused) privilege and a potentially life-saving service, carried out by non-judgmental, knowledgeable, and approachable staff. The government supports drug checking because it helps protect public health by identifying dangerous substances and issuing timely warnings, for example through the Red Alert app. It also flags high-risk pills and monitors trends, such as increasing MDMA strength, so people can make more informed decisions.
 
-More details and practical guidance can be found [here](https://www.jellinek.nl/en/alcohol-drugs-behavior/drug-testing-service/).
+More details and specific guidelines about testing can be found [here](https://www.jellinek.nl/en/alcohol-drugs-behavior/drug-testing-service/).
 
-Many parents worry these conversations are uncomfortable, but in practice they are often straightforward and practical.
+Many parents worry that these conversations might feel uncomfortable or confronting, but in reality, they are often very straightforward. To give you a sense of how approachable and professional this space is, I once took my boss along with me to do fieldwork at one of the city's drug testing services with some of my own drugs. If I can sit next to the person who deems me responsible enough to pay me while answering questions like "When did you last use this batch of pills? What were the side effects? Do you know who you got it from?", you, brave reader, can do this alongside your responsible child.
 
 ## 7) What is a good drug policy?
 A good drug policy prioritizes health, safety, and evidence over punishment and stigma. It provides access to accurate information, prevention, treatment, and support services.
