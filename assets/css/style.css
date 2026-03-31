@@ -369,13 +369,13 @@ h2 {
   border-radius: 12px;
   overflow: hidden;
   background: var(--surface);
-  max-width: 380px;
+  max-width: 340px;
 }
 
 .about-photo-card img {
   width: 100%;
   display: block;
-  max-height: 240px;
+  max-height: 210px;
   object-fit: cover;
 }
 
@@ -385,7 +385,7 @@ h2 {
   border-radius: 12px;
   overflow: hidden;
   background: var(--surface);
-  max-width: 290px;
+  max-width: 260px;
 }
 
 .works-photo-card img {
@@ -394,7 +394,7 @@ h2 {
 }
 
 .works-photo-large {
-  max-width: 430px;
+  max-width: 380px;
 }
 
 .conference-grid {
