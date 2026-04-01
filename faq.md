@@ -4,10 +4,7 @@ layout: faq
 permalink: /faq/
 description: FAQ for parents
 ---
-
-Answers for parents:
-
-Parenting in today’s drug landscape can feel overwhelming. Substances are stronger, more accessible, and often more unpredictable than maybe what you were used to. This page is designed to give you clear, honest, evidence-based information so you can talk with your children confidently, compassionately, and effectively. Below is a list of top 10 pressing questions that, as both a parent and user, I believe are likely to come up. They’re also the kinds of conversations that when approached with openness, care, and honesty can build trust, reduce harm, and ultimately contribute to a healthier, more understanding world.
+Parenting in today's drug landscape can feel overwhelming. Substances are stronger, more accessible, and often more unpredictable than maybe what you were used to. This page is designed to give you clear, honest, evidence-based information so you can talk with your children confidently, compassionately, and effectively. Below is a list of top 10 pressing questions that, as both a parent and user, I believe are likely to come up. They're also the kinds of conversations that when approached with openness, care, and honesty can build trust, reduce harm, and ultimately contribute to a healthier, more understanding world.
 	•	How do I talk to my kids about drugs? 
 Talking to your children about drugs should not be a single, serious “big talk,” but rather an ongoing conversation that evolves as they grow. Start early, stay curious, and focus on listening as much as speaking. Ask open-ended questions like, “What are you hearing at school?” or “What do you think about vaping or cannabis?” The goal is not to lecture, but to understand their world.
 Try to remain calm, even if you feel worried. Your reaction will determine whether they come back to you in the future. Avoid exaggeration or scare tactics — young people are quick to dismiss information that feels unrealistic. (A long aside: When I was in the 10th grade, the adults opted for this unfortunate and lazy method. Instead of creating a sense of intimacy and safety, with personal conversations in smaller groups where questions and curiosities about drug use were encouraged (and gasp, perhaps some discomfort felt!) the adults chose to “talk” “to” us “about” drugs by inviting a former drug user to talk (and promote) his biography, The Agony of Ecstasy. He stood in front of hundreds of teenagers and told us that he experimented with several drugs and after brief moments of fun, his drug use turned into addiction, dealing, and stealing, and soon landed him in jail. What I recall the most from that two hour ‘scared straight’ tacit was… that ecstasy and LSD sounded ah-maaaazing. Not that I should stay away from drugs, or that I too, would go to jail, undoubtedly the message the adults in the room were hoping for. More importantly, I remember thinking about everything we’d been told about ‘risky behavious and decisions’ and started to question it. I had tried weed a few times with no negative outcomes—but wasn’t smoking weed supposed to be a guaranteed path to bad behaviour and addiction? What else were adults lying to us? Could we trust them?)
@@ -58,6 +55,5 @@ Erowid: Global library of user reports and expert resources promoting responsibl
 Harm Reduction International: all things harm reduction.
 
 Do you have a specific question not listed here? I’d be happy to think about I, please feel welcome to get in touch  
-
 
 
