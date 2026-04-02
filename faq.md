@@ -4,9 +4,6 @@ layout: faq
 permalink: /faq/
 description: FAQ for parents
 ---
-
-Answers for parents:
-
 Parenting in today's drug landscape can feel overwhelming. Substances are stronger, more accessible, and often more unpredictable than maybe what you were used to. This page is designed to give you clear, honest, evidence-based information so you can talk with your children confidently, compassionately, and effectively. Below is a list of top 10 pressing questions that, as both a parent and user, I believe are likely to come up. They are also the kinds of conversations that, when approached with openness, care, and honesty, can build trust, reduce harm, and ultimately contribute to a healthier, more understanding world.
 
 ## 1) How do I talk to my kids about drugs?
