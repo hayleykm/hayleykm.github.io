@@ -48,19 +48,19 @@ Technically, possession, sale, and production of all drugs are illegal. In pract
 
 Overall, the Dutch system is pragmatic and harm reduction–oriented, prioritizing public health, education, and access to support. Services like drug checking and low-threshold care focus on reducing risks rather than punishing users.
 
-6) Drug testing services? Tell me more.
+## 6) Drug testing services? Tell me more.
 
 Drug testing is a (still underused) privilege and a potentially life-saving service, carried out by non-judgmental, knowledgeable, and approachable staff. The government supports drug checking because it helps protect public health by identifying dangerous substances and issuing timely warnings, for example through the Red Alert app. It also flags high-risk pills and monitors trends—such as increasing MDMA strength—so people can make more informed decisions. More details and specific guidelines about testing can be found [here](https://www.jellinek.nl/en/alcohol-drugs-behavior/drug-testing-service/).
 
 Many parents worry that these conversations might feel uncomfortable or confronting—but in reality, they’re often very straightforward. To give you a sense of how approachable and professional this space is, I once took my boss along with me to do fieldwork at one of the city’s drug testing services with some of my own drugs.  If I can sit next to the person who deems me to be responsible enough to pay me while answering questions like “When did you last use this batch of pills? What were the side effects? Do you know who you got it from?” you, brave reader, can do this alongside your responsible child.
 
-## 6) What is a good drug policy?
+## 7) What is a good drug policy?
 
 A good drug policy prioritizes health, safety, and evidence over punishment and stigma. It provides access to accurate information, prevention, treatment, and support services.
 
 Effective policies focus on reducing harm, protecting young people, and addressing the underlying social and mental health factors that influence substance use. They recognize that fear and punishment alone do not prevent use — but education, connection, and accessible care can reduce risk and improve outcomes.
 
-## 7) How can I support my child in making good choices?
+## 8) How can I support my child in making good choices?
 
 Strong, trusting relationships are one of the most protective factors against harmful substance use. Open communication, clear boundaries, and consistent expectations help create a sense of safety and stability. Being honest about your own experiences—without glorifying them—can build trust and credibility, especially when you focus on what you learned and what you might do differently.
 
@@ -68,7 +68,7 @@ You can also help them build decision-making skills. Talk through hypothetical s
 
 When young people feel listened to, supported, and not immediately judged, they are far more likely to come to you when it matters most.
 
-## 8) My child is going to a festival for the first time. What should I know?
+## 9) My child is going to a festival for the first time. What should I know?
 
 Wonderful news! These are incredibly rich spaces where people are exposed to so much newness: new ways of community, connection, and of course new music styles and clothing and personal expression. All in all, a great landscape for youth to explore themselves and the world.
 
@@ -76,7 +76,7 @@ However, there are certainly risks that you and your child should familiarize yo
 
 You might also consider talking about staying with trusted friends, keeping phones charged, and looking out for one another. If substance use might come up, creating space for open, non-judgmental conversation beforehand can make a real difference in how your child navigates those situations. Ultimately, the goal isn’t to eliminate all risk—that’s not realistic—but to help your child feel prepared, supported, and able to make safer decisions.
 
-## 9) Where can I get accurate and non-judgemental information on safer drug use?
+## 10) Where can I get accurate and non-judgemental information on safer drug use?
 
 Look for evidence-based, non-sensational sources. Public health organizations, youth mental health services, and harm reduction groups often provide clear, practical information for parents. Seeking information and support is not a sign of failure — it is a sign of responsible parenting.
 
