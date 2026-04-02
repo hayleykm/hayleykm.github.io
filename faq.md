@@ -94,7 +94,6 @@ Below are some links to some resources I know, trust, and use myself and recomme
 
 [Erowid](https://www.erowid.org/): Global library of user reports and expert resources promoting responsible drug use.
 
-[Harm Reduction International](https://hri.global/): all things harm reduction.
+[Harm Reduction International](https://hri.global/): All things harm reduction.
 
-Do you have a specific question not listed here? I’d be happy to think about I, please feel welcome to get in touch
-
+Do you have a specific question not listed here? I’d be happy to think about it, please feel welcome to [get in touch.](mailto:hayleykmurray@gmail.com) 
