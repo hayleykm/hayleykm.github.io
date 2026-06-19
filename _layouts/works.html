@@ -65,9 +65,20 @@ layout: default
         <a class="blog-card-link" href="{{ post.url }}" target="_blank" rel="noopener noreferrer">
           <div class="blog-card-image-wrap">
             {% assign blog_image = post.image | default: '' %}
+            {% assign blog_image_src = '' %}
+            {% if blog_image != '' %}
+              {% if blog_image contains '/assets/' %}
+                {% assign build_version = site.github.build_revision | default: site.time | date: '%s' %}
+                {% assign blog_image_src = blog_image | relative_url | append: '?v=' | append: build_version %}
+              {% else %}
+                {% assign blog_image_src = blog_image %}
+              {% endif %}
+            {% else %}
+              {% assign blog_image_src = '/assets/img/poppi-logo.png' | relative_url %}
+            {% endif %}
             <img
               class="blog-card-image"
-              src="{% if blog_image != '' %}{{ blog_image }}{% else %}{{ '/assets/img/poppi-logo.png' | relative_url }}{% endif %}"
+              src="{{ blog_image_src }}"
               alt="{{ post.title | default: 'Blog post image' }}"
               loading="lazy">
           </div>
