@@ -12,7 +12,7 @@ permalink: pretty
 theme: null
 plugins: []
 # Set this to your Medium RSS feed, for example https://medium.com/feed/@your-handle
-medium_feed_url: ""
+medium_feed_url: "https://medium.com/feed/@hayleykmurray"
 
 # Default layout for pages that do not explicitly set one.
 defaults:
