@@ -1,175 +1,156 @@
-# Publications and blog links used by works.md.
-# Keep newest year first.
-# Optional fields for each publication: pdf, doi, code, note.
-
+---
 publications:
-  - year: 2025
-    entries:
-      - title: "Young people, recreational drug use, and safer practices in a changing world: Futuring Harm Reduction"
-        authors: "Hayley K Murray"
-        venue: "Wageningen University (PhD Dissertation)"
-        note: "Dissertation"
-        pdf: ""
-        doi: "https://doi.org/10.18174/682927"
-        code: ""
-
-  - year: 2024
-    entries:
-      - title: "Controlled to Uncontrolled Drug Use: The Impact of COVID-19 Among Young People in the UK"
-        authors: "Hayley K Murray"
-        venue: "Human Organization"
-        note: "Volume 83(3), pp. 266-276"
-        pdf: "https://www.wur.nl/en/publication-details.htm?publicationId=9868caef-d833-4a8f-b960-c470ac6f77a8"
-        doi: ""
-        code: ""
-
-  - year: 2023
-    entries:
-      - title: "Young adults' pathways of navigating harms and pleasure related to recreational poly-drug use: A complex balancing act"
-        authors: "Hayley K Murray"
-        venue: "Journal of Addiction Research"
-        note: "Volume 7(1), pp. 1-16"
-        pdf: "https://www.wur.nl/en/publication-details.htm?publicationId=83e2f66b-108f-4570-8e14-a0f2a9ec95de"
-        doi: "https://doi.org/10.33140/jar.07.01.03"
-        code: ""
-
-      - title: "The impact of Covid-19 on Amsterdam's harm reduction model: an exploratory study"
-        authors: "Hayley K Murray"
-        venue: "Practicing Anthropology"
-        note: "Volume 45(1), pp. 28-34"
-        pdf: ""
-        doi: "https://doi.org/10.17730/0888-4552.45.1.28"
-        code: ""
-
-  - year: 2022
-    entries:
-      - title: "Substance use policy and practice in the COVID-19 pandemic: Learning from early-pandemic responses through internationally comparative field data"
-        authors: "Olga P. Persson, et al. (including Hayley K Murray)"
-        venue: "Global Public Health"
-        note: "Volume 17(12), pp. 3331-3349"
-        pdf: ""
-        doi: "https://doi.org/10.1080/17441692.2022.2129720"
-        code: ""
-
-      - title: "Is Smartphone addiction a 'real' addiction?"
-        authors: "Co-author (including Hayley K Murray)"
-        venue: "Psychology of Addictive Behaviors"
-        note: "Under review (no DOI available)"
-        pdf: ""
-        doi: ""
-        code: ""
-
-  - year: 2021
-    entries:
-      - title: "Are psychotic-like experiences related to a discontinuation of cannabis consumptions in young adults?"
-        authors: "Daedelow, L., et al. (including Hayley K Murray)"
-        venue: "Schizophrenia Research"
-        note: "Volume 228, pp. 461-466"
-        pdf: ""
-        doi: "https://doi.org/10.1016/j.schres.2021.01.002"
-        code: ""
-
-      - title: "Harm Reduction for Young People Who Use Drugs"
-        authors: "Contributor"
-        venue: "Youth RISE"
-        note: "Resource contribution"
-        pdf: "https://www.youthrise.org/publications"
-        doi: ""
-        code: ""
-
-  - year: 2020
-    entries:
-      - title: "Caring for 'Hassle-Free Highs' in Amsterdam"
-        authors: "Hardon, A., et al., (including Hayley K Murray"
-        venue: "Anthropology and Humanism"
-        note: "Volume 45(2), pp. 266-286"
-        pdf: ""
-        doi: "https://doi.org/10.1111/anhu.12298"
-        code: ""
-
-  - year: 2018
-    entries:
-      - title: "Speed Limits: Harm reduction for people who use stimulants"
-        authors: "Contributor"
-        venue: "Mainline"
-        note: "Report"
-        pdf: "https://www.gpdpd.org/fileadmin/media/mainline_report_complete.pdf"
-        doi: ""
-        code: ""
-
-  - year: 2016
-    entries:
-      - title: "Harm reduction from below: On sharing and caring in drug-use"
-        authors: "van Schipstal, I., Mishra, S., Berning, M., H. Murray"
-        venue: "Contemporary Drug Problems"
-        note: "Volume 43(3), pp. 199-215"
-        pdf: ""
-        doi: "https://doi.org/10.1177/0091450916663246"
-        code: ""
-
+- year: 2025
+  entries:
+  - title: 'Young people, recreational drug use, and safer practices in a changing world: Futuring Harm Reduction'
+    authors: Hayley K Murray
+    venue: Wageningen University (PhD Dissertation)
+    note: Dissertation
+    pdf: ''
+    doi: https://doi.org/10.18174/682927
+    code: ''
+- year: 2024
+  entries:
+  - title: 'Controlled to Uncontrolled Drug Use: The Impact of COVID-19 Among Young People in the UK'
+    authors: Hayley K Murray
+    venue: Human Organization
+    note: Volume 83(3), pp. 266-276
+    pdf: https://www.wur.nl/en/publication-details.htm?publicationId=9868caef-d833-4a8f-b960-c470ac6f77a8
+    doi: ''
+    code: ''
+- year: 2023
+  entries:
+  - title: 'Young adults'' pathways of navigating harms and pleasure related to recreational poly-drug use: A complex balancing act'
+    authors: Hayley K Murray
+    venue: Journal of Addiction Research
+    note: Volume 7(1), pp. 1-16
+    pdf: https://www.wur.nl/en/publication-details.htm?publicationId=83e2f66b-108f-4570-8e14-a0f2a9ec95de
+    doi: https://doi.org/10.33140/jar.07.01.03
+    code: ''
+  - title: 'The impact of Covid-19 on Amsterdam''s harm reduction model: an exploratory study'
+    authors: Hayley K Murray
+    venue: Practicing Anthropology
+    note: Volume 45(1), pp. 28-34
+    pdf: ''
+    doi: https://doi.org/10.17730/0888-4552.45.1.28
+    code: ''
+- year: 2022
+  entries:
+  - title: 'Substance use policy and practice in the COVID-19 pandemic: Learning from early-pandemic responses through internationally comparative field data'
+    authors: Olga P. Persson, et al. (including Hayley K Murray)
+    venue: Global Public Health
+    note: Volume 17(12), pp. 3331-3349
+    pdf: ''
+    doi: https://doi.org/10.1080/17441692.2022.2129720
+    code: ''
+  - title: Is Smartphone addiction a 'real' addiction?
+    authors: Co-author (including Hayley K Murray)
+    venue: Psychology of Addictive Behaviors
+    note: Under review (no DOI available)
+    pdf: ''
+    doi: ''
+    code: ''
+- year: 2021
+  entries:
+  - title: Are psychotic-like experiences related to a discontinuation of cannabis consumptions in young adults?
+    authors: Daedelow, L., et al. (including Hayley K Murray)
+    venue: Schizophrenia Research
+    note: Volume 228, pp. 461-466
+    pdf: ''
+    doi: https://doi.org/10.1016/j.schres.2021.01.002
+    code: ''
+  - title: Harm Reduction for Young People Who Use Drugs
+    authors: Contributor
+    venue: Youth RISE
+    note: Resource contribution
+    pdf: https://www.youthrise.org/publications
+    doi: ''
+    code: ''
+- year: 2020
+  entries:
+  - title: Caring for 'Hassle-Free Highs' in Amsterdam
+    authors: Hardon, A., et al., (including Hayley K Murray
+    venue: Anthropology and Humanism
+    note: Volume 45(2), pp. 266-286
+    pdf: ''
+    doi: https://doi.org/10.1111/anhu.12298
+    code: ''
+- year: 2018
+  entries:
+  - title: 'Speed Limits: Harm reduction for people who use stimulants'
+    authors: Contributor
+    venue: Mainline
+    note: Report
+    pdf: https://www.gpdpd.org/fileadmin/media/mainline_report_complete.pdf
+    doi: ''
+    code: ''
+- year: 2016
+  entries:
+  - title: 'Harm reduction from below: On sharing and caring in drug-use'
+    authors: van Schipstal, I., Mishra, S., Berning, M., H. Murray
+    venue: Contemporary Drug Problems
+    note: Volume 43(3), pp. 199-215
+    pdf: ''
+    doi: https://doi.org/10.1177/0091450916663246
+    code: ''
 blogs:
-  - title: "Recreational drug use in pandemics"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/recreational-drug-use-in-pandemics/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2020/04/1140-corona-virus-image.imgcache.revc0f724c550d0ba7ac44ffc0245fb30f4.jpg"
-
-  - title: "Part two: tripping during COVID"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-two-tripping-during-covid/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2020/06/Picture-1.png"
-
-  - title: "Part three: corona and stimulants"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-three-corona-and-stimulants/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2020/07/hayleypart3-1.png"
-
-  - title: "Part four: drug experiments during a pandemic"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-four-drug-experiments-during-a-pandemic/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2020/09/PhotoFunia-1599634037.jpg"
-
-  - title: "Part five: pause"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-five-pause/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2020/10/Picture-1.png"
-
-  - title: "Part six: corona and Christmas"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-six-corona-and-christmas/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2020/12/Corona-and-Christmas-1.png"
-
-  - title: "Part seven: getting tested"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-seven-getting-tested/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2021/02/Afbeelding1.jpg"
-
-  - title: "Part eight: checking in"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-eight-checking-in/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2021/05/Afbeelding4.jpg"
-
-  - title: "Part nine: checking in"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-nine-checking-in/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2019/08/pophealth_img-1024x1024.png"
-
-  - title: "Part nine: checking in 2"
-    outlet: "Poppi Amsterdam"
-    date: ""
-    url: "https://poppi.amsterdam/en/part-nine-checking-in-2/"
-    image: "https://poppi.amsterdam/wp-content/uploads/2020/10/hayley2.jpg"
-
-  - title: "Hayley K Murray #35"
-    outlet: "High Humans"
-    date: ""
-    url: "https://www.highhumans.com/hayley-murray-35/"
-    image: "https://www.highhumans.com/wp-content/uploads/2021/11/SELECTIE-10.jpg"
+- title: Identity Split
+  outlet: Medium
+  date: 1 June 2026
+  url: https://medium.com/@hayleykmurray/identity-split-27f463e71409?source=rss-0a74bd42cd48------2
+  image: https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=27f463e71409
+- title: Recreational drug use in pandemics
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/recreational-drug-use-in-pandemics/
+  image: https://poppi.amsterdam/wp-content/uploads/2020/04/1140-corona-virus-image.imgcache.revc0f724c550d0ba7ac44ffc0245fb30f4.jpg
+- title: 'Part two: tripping during COVID'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-two-tripping-during-covid/
+  image: https://poppi.amsterdam/wp-content/uploads/2020/06/Picture-1.png
+- title: 'Part three: corona and stimulants'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-three-corona-and-stimulants/
+  image: https://poppi.amsterdam/wp-content/uploads/2020/07/hayleypart3-1.png
+- title: 'Part four: drug experiments during a pandemic'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-four-drug-experiments-during-a-pandemic/
+  image: https://poppi.amsterdam/wp-content/uploads/2020/09/PhotoFunia-1599634037.jpg
+- title: 'Part five: pause'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-five-pause/
+  image: https://poppi.amsterdam/wp-content/uploads/2020/10/Picture-1.png
+- title: 'Part six: corona and Christmas'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-six-corona-and-christmas/
+  image: https://poppi.amsterdam/wp-content/uploads/2020/12/Corona-and-Christmas-1.png
+- title: 'Part seven: getting tested'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-seven-getting-tested/
+  image: https://poppi.amsterdam/wp-content/uploads/2021/02/Afbeelding1.jpg
+- title: 'Part eight: checking in'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-eight-checking-in/
+  image: https://poppi.amsterdam/wp-content/uploads/2021/05/Afbeelding4.jpg
+- title: 'Part nine: checking in'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-nine-checking-in/
+  image: https://poppi.amsterdam/wp-content/uploads/2019/08/pophealth_img-1024x1024.png
+- title: 'Part nine: checking in 2'
+  outlet: Poppi Amsterdam
+  date: ''
+  url: https://poppi.amsterdam/en/part-nine-checking-in-2/
+  image: https://poppi.amsterdam/wp-content/uploads/2020/10/hayley2.jpg
+- title: 'Hayley K Murray #35'
+  outlet: High Humans
+  date: ''
+  url: https://www.highhumans.com/hayley-murray-35/
+  image: https://www.highhumans.com/wp-content/uploads/2021/11/SELECTIE-10.jpg
