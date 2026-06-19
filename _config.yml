@@ -11,6 +11,8 @@ markdown: kramdown
 permalink: pretty
 theme: null
 plugins: []
+# Set this to your Medium RSS feed, for example https://medium.com/feed/@your-handle
+medium_feed_url: ""
 
 # Default layout for pages that do not explicitly set one.
 defaults:

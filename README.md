@@ -67,6 +67,7 @@ The templates already use `relative_url`, so links and CSS work for both cases.
 
 - File: `works.md`
 - Data source: `_data/publications.yml`
+- Medium auto-sync: set `medium_feed_url` in `_config.yml` or the `MEDIUM_FEED_URL` GitHub secret.
 
 ### Parent FAQ
 
@@ -106,3 +107,5 @@ If local setup feels too technical, skip this and rely on GitHub Pages preview a
 - No custom plugins are required.
 - Navigation is shared across pages via includes.
 - Main content is intentionally centralized in Markdown and `_data/*.yml` files.
+- The workflow at `.github/workflows/sync-medium-posts.yml` can refresh Medium posts daily and on demand.
+- Use your Medium RSS URL, for example `https://medium.com/feed/@your-handle` or your publication feed URL.
