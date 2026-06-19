@@ -71,7 +71,7 @@ def local_blog_tile(title)
 end
 
 def preferred_image(new_image, existing_image, title)
-  return new_image.to_s unless !new_image.to_s.strip.empty? && !unusable_medium_image?(new_image)
+  return new_image.to_s if !new_image.to_s.strip.empty? && !unusable_medium_image?(new_image)
 
   existing = existing_image.to_s
   return existing unless existing.empty? || unusable_medium_image?(existing)
