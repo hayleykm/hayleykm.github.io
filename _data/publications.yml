@@ -1,5 +1,14 @@
 ---
 publications:
+- year: 2026
+  entries:
+  - title: "The good and the bad: A qualitative investigation of students' perspectives on their problematic smartphone use"
+    authors: Co-author
+    venue: Journal of Behavioral Addictions
+    note: ''
+    pdf: https://pubmed.ncbi.nlm.nih.gov/42378041/
+    doi: ''
+    code: ''
 - year: 2025
   entries:
   - title: 'Young people, recreational drug use, and safer practices in a changing world: Futuring Harm Reduction'
@@ -15,8 +24,8 @@ publications:
     authors: Hayley K Murray
     venue: Human Organization
     note: Volume 83(3), pp. 266-276
-    pdf: https://www.wur.nl/en/publication-details.htm?publicationId=9868caef-d833-4a8f-b960-c470ac6f77a8
-    doi: ''
+    pdf: https://pmc.ncbi.nlm.nih.gov/articles/PMC11627207/
+    doi: https://doi.org/10.1080/00187259.2024.2379308
     code: ''
 - year: 2023
   entries:
@@ -24,7 +33,7 @@ publications:
     authors: Hayley K Murray
     venue: Journal of Addiction Research
     note: Volume 7(1), pp. 1-16
-    pdf: https://www.wur.nl/en/publication-details.htm?publicationId=83e2f66b-108f-4570-8e14-a0f2a9ec95de
+    pdf: ''
     doi: https://doi.org/10.33140/jar.07.01.03
     code: ''
   - title: 'The impact of Covid-19 on Amsterdam''s harm reduction model: an exploratory study'
@@ -42,13 +51,6 @@ publications:
     note: Volume 17(12), pp. 3331-3349
     pdf: ''
     doi: https://doi.org/10.1080/17441692.2022.2129720
-    code: ''
-  - title: Is Smartphone addiction a 'real' addiction?
-    authors: Co-author (including Hayley K Murray)
-    venue: Psychology of Addictive Behaviors
-    note: Under review (no DOI available)
-    pdf: ''
-    doi: ''
     code: ''
 - year: 2021
   entries:
@@ -90,8 +92,8 @@ publications:
     authors: van Schipstal, I., Mishra, S., Berning, M., H. Murray
     venue: Contemporary Drug Problems
     note: Volume 43(3), pp. 199-215
-    pdf: ''
-    doi: https://doi.org/10.1177/0091450916663246
+    pdf: https://pubmed.ncbi.nlm.nih.gov/27721525/
+    doi: https://doi.org/10.1177/0091450916663248
     code: ''
 blogs:
 - title: Identity Split
